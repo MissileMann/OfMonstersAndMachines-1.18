@@ -141,4 +141,19 @@ onEvent("recipes", (event) => {
     event.remove({output: "industrialforegoing:iron_gear"});
 
     event.replaceInput({output: "industrialforegoing:machine_frame_pity"}, "minecraft:redstone_block", "thermal:upgrade_augment_2");
+
+    event.smelting("thermal:cured_rubber", "myrtrees:latex")
+    //event.recipes.thermal.furnace("thermal:cured_rubber", "myrtrees:latex")
+
+    event.recipes.thermal.smelter("4x thermal:cured_rubber", ["2x myrtrees:latex", ["#forge:dusts/sulfur", "#forge:gems/sulfur"]])
+
+    event.recipes.thermal.smelter("3x ae2:silicon", [["myrtrees:latex", "thermal:rubber"], "ae2:certus_quartz_dust"])
+
+    event.shapeless("thermal:ender_pearl_dust", [
+        ["minecraft:ender_pearl"],
+        Item.of("immersiveengineering:hammer").ignoreNBT(),
+      ]);
+    event.recipes.immersiveengineeringCrusher("thermal:ender_pearl_dust", "minecraft:ender_pearl")
+    event.recipes.mekanismCrushing("thermal:ender_pearl_dust", "minecraft:ender_pearl")
+    event.recipes.thermal.pulverizer("thermal:ender_pearl_dust", "minecraft:ender_pearl")
 });
