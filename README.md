@@ -1,4 +1,4 @@
-![](kubejs/assets/ui/textures/missilepacklogoslim.png)
+![](kubejs/assets/ui/textures/logo.png)
 
 For Servers: 
 
