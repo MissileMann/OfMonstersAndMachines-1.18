@@ -1,5 +1,3 @@
-// priority: 100
-
 settings.logAddedRecipes = false;
 settings.logRemovedRecipes = false;
 settings.logSkippedRecipes = false;
@@ -88,8 +86,6 @@ onEvent("recipes", (event) => {
         C: ['#botania:livingwood_logs'],
     });
 
-    event.recipes.mekanismEnriching(`5x ae2:certus_quartz_dust`, `ae2:deepslate_quartz_ore`)
-
     event.remove({ output: "forbidden_arcanus:boom_arrow" });
     event.shaped("forbidden_arcanus:boom_arrow", [" B ", "AAA", " A "], {
         B: "minecraft:tnt",
@@ -140,14 +136,7 @@ onEvent("recipes", (event) => {
     event.remove({output: "industrialforegoing:gold_gear"});
     event.remove({output: "industrialforegoing:iron_gear"});
 
-    event.replaceInput({output: "industrialforegoing:machine_frame_pity"}, "minecraft:redstone_block", "thermal:upgrade_augment_2");
-
-    event.smelting("thermal:cured_rubber", "myrtrees:latex")
-    //event.recipes.thermal.furnace("thermal:cured_rubber", "myrtrees:latex")
-
-    event.recipes.thermal.smelter("4x thermal:cured_rubber", ["2x myrtrees:latex", ["#forge:dusts/sulfur", "#forge:gems/sulfur"]])
-
-    event.recipes.thermal.smelter("3x ae2:silicon", [["myrtrees:latex", "thermal:rubber"], "ae2:certus_quartz_dust"])
+    //event.replaceInput({output: "industrialforegoing:machine_frame_pity"}, "minecraft:redstone_block", "thermal:upgrade_augment_2");
 
     event.shapeless("thermal:ender_pearl_dust", [
         ["minecraft:ender_pearl"],
@@ -156,4 +145,47 @@ onEvent("recipes", (event) => {
     event.recipes.immersiveengineeringCrusher("thermal:ender_pearl_dust", "minecraft:ender_pearl")
     event.recipes.mekanismCrushing("thermal:ender_pearl_dust", "minecraft:ender_pearl")
     event.recipes.thermal.pulverizer("thermal:ender_pearl_dust", "minecraft:ender_pearl")
+
+    event.remove({mod: "angelring"})
+    event.remove({output: "explorerscompass:explorerscompass"})
+    //event.remove({output: "angelring:itemring"})
+    event.shaped("angelring:itemring", ["ABA","CDC","AEA"], {
+        A: "enigmaticlegacy:evil_ingot",
+        B: "forbidden_arcanus:golden_dragon_scale",
+        C: "minecraft:gold_block",
+        D: "enigmaticlegacy:fabulous_scroll",
+        E: "enigmaticlegacy:twisted_core"
+    })
+    event.shaped("enigmaticlegacy:cursed_ring", ["ABA","CDC","FEF"], {
+        A: "minecraft:blaze_rod",
+        B: "enigmaticlegacy:gem_ring",
+        C: "minecraft:netherite_scrap",
+        D: "minecraft:heart_of_the_sea",
+        E: "minecraft:lava_bucket",
+        F: "malum:blazing_quartz"
+    })
+    event.shaped("explorerscompass:explorerscompass", ["BCB","CAC","BCB"], {
+        A: "enigmaticlegacy:soul_compass",
+        B: "enigmaticlegacy:evil_essence",
+        C: "botania:manasteel_ingot"
+    })
+
+    event.smelting('refinedstorage:silicon', '#forge:gems/quartz')
+    event.recipes.thermal.smelter('3x refinedstorage:silicon', ['#forge:gems/quartz', ['#forge:gems/sulfur', '#forge:dusts/sulfur']])
+
+    event.shapeless("delightful:prickly_pear_juice", ["4x byg:prickly_pear_cactus", "minecraft:sugar", "minecraft:glass_bottle"])
+    event.shapeless("delightful:crab_rangoon", ["farmersdelight:wheat_dough", "#forge:cheese_or_milk", "quark:cooked_crab_leg"])
+    event.shapeless("delightful:chunkwich", ["#forge:bread", "minecraft:sugar", "4x minecraft:rotten_flesh"])
+
+    event.remove({output: "cabletiers:creative_exporter"})
+    event.remove({output: "cabletiers:creative_importer"})
+    event.remove({output: "cabletiers:creative_constructor"})
+    event.remove({output: "cabletiers:creative_destructor"})
+    event.remove({output: "cabletiers:creative_disk_manipulator"})
+    event.remove({output: "cabletiers:creative_requester"})
+});
+
+onEvent('tags.items', event => {
+    event.remove('curios:ring', 'angelring:itemring')
+    event.remove('curios:charm', 'angelring:itemring')
 });

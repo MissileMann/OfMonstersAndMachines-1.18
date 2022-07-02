@@ -23,16 +23,16 @@ onEvent("recipes", (event) => {
     { name: "copper", hasOre: true, rawItem: "minecraft:raw_copper", rawBlock: "minecraft:raw_copper_block", nuggetItem: "thermal:copper_nugget", ingotItem: "minecraft:copper_ingot", blockItem: "minecraft:copper_block", dustItem: "thermal:copper_dust", plateItem: "thermal:copper_plate", rodsItem: "", gearItem: "thermal:copper_gear", crushedItem: "create:crushed_copper_ore" },
     { name: "tin", hasOre: true, rawItem: "thermal:raw_tin", rawBlock: "thermal:raw_tin_block", nuggetItem: "thermal:tin_nugget", ingotItem: "thermal:tin_ingot", blockItem: "thermal:tin_block", dustItem: "thermal:tin_dust", plateItem: "thermal:tin_plate", rodsItem: "", gearItem: "thermal:tin_gear", crushedItem: "create:crushed_tin_ore" },
     { name: "lead", hasOre: true, rawItem: "thermal:raw_lead", rawBlock: "thermal:raw_lead_block", nuggetItem: "thermal:lead_nugget", ingotItem: "thermal:lead_ingot", blockItem: "thermal:lead_block", dustItem: "thermal:lead_dust", plateItem: "thermal:lead_plate", rodsItem: "", gearItem: "thermal:lead_gear", crushedItem: "create:crushed_lead_ore" },
-    { name: "zinc", hasOre: true, rawItem: "create:raw_zinc", rawBlock: "create:raw_zinc_block", nuggetItem: "create:zinc_nugget", ingotItem: "create:zinc_ingot", blockItem: "create:zinc_block", dustItem: "", plateItem: "", rodsItem: "", gearItem: "", crushedItem: "create:crushed_zinc_ore" },
+    { name: "zinc", hasOre: true, rawItem: "create:raw_zinc", rawBlock: "create:raw_zinc_block", nuggetItem: "create:zinc_nugget", ingotItem: "create:zinc_ingot", blockItem: "create:zinc_block", dustItem: "kubejs:zinc_dust", plateItem: "", rodsItem: "", gearItem: "", crushedItem: "create:crushed_zinc_ore" },
     { name: "silver", hasOre: true, rawItem: "thermal:raw_silver", rawBlock: "thermal:raw_silver_block", nuggetItem: "thermal:silver_nugget", ingotItem: "thermal:silver_ingot", blockItem: "thermal:silver_block", dustItem: "thermal:silver_dust", plateItem: "thermal:silver_plate", rodsItem: "", gearItem: "thermal:silver_gear", crushedItem: "create:crushed_silver_ore" },
     { name: "nickel", hasOre: true, rawItem: "thermal:raw_nickel", rawBlock: "thermal:raw_nickel_block", nuggetItem: "thermal:nickel_nugget", ingotItem: "thermal:nickel_ingot", blockItem: "thermal:nickel_block", dustItem: "thermal:nickel_dust", plateItem: "thermal:nickel_plate", rodsItem: "", gearItem: "thermal:nickel_gear", crushedItem: "create:crushed_nickel_ore" },
     { name: "uranium", hasOre: true, rawItem: "mekanism:raw_uranium", rawBlock: "mekanism:block_raw_uranium", nuggetItem: "mekanism:nugget_uranium", ingotItem: "mekanism:ingot_uranium", blockItem: "mekanism:block_uranium", dustItem: "mekanism:dust_uranium", plateItem: "immersiveengineering:plate_uranium", rodsItem: "", gearItem: "", crushedItem: "create:crushed_uranium_ore" },
-    { name: "osmium",  hasOre: true,  rawItem: "mekanism:raw_osmium", rawBlock: "mekanism:block_raw_osmium", nuggetItem: "mekanism:nugget_osmium",  ingotItem: "mekanism:ingot_osmium",  blockItem: "mekanism:block_osmium",  dustItem: "mekanism:dust_osmium",  plateItem: "",  rodsItem: "",  gearItem: "", crushedItem: "" },
-    { name: "cobalt",  hasOre: true,  rawItem: "tconstruct:raw_cobalt", rawBlock: "tconstruct:raw_cobalt_block", nuggetItem: "tconstruct:cobalt_nugget",  ingotItem: "tconstruct:cobalt_ingot",  blockItem: "tconstruct:cobalt_block",  dustItem: "",  plateItem: "",  rodsItem: "",  gearItem: "", crushedItem: "" },
+    { name: "osmium",  hasOre: true,  rawItem: "mekanism:raw_osmium", rawBlock: "mekanism:block_raw_osmium", nuggetItem: "mekanism:nugget_osmium",  ingotItem: "mekanism:ingot_osmium",  blockItem: "mekanism:block_osmium",  dustItem: "mekanism:dust_osmium",  plateItem: "",  rodsItem: "",  gearItem: "", crushedItem: "create:crushed_osmium_ore" },
+    { name: "cobalt",  hasOre: true,  rawItem: "tconstruct:raw_cobalt", rawBlock: "tconstruct:raw_cobalt_block", nuggetItem: "tconstruct:cobalt_nugget",  ingotItem: "tconstruct:cobalt_ingot",  blockItem: "tconstruct:cobalt_block",  dustItem: "kubejs:cobalt_dust",  plateItem: "",  rodsItem: "",  gearItem: "", crushedItem: "kubejs:crushed_cobalt_ore" },
     { name: "electrum", hasOre: false, rawItem: "", rawBlock: "", nuggetItem: "thermal:electrum_nugget", ingotItem: "thermal:electrum_ingot", blockItem: "thermal:electrum_block", dustItem: "thermal:electrum_dust", plateItem: "thermal:electrum_plate", rodsItem: "", gearItem: "thermal:electrum_gear", crushedItem: "" },
     { name: "constantan", hasOre: false, rawItem: "", rawBlock: "", nuggetItem: "thermal:constantan_nugget", ingotItem: "thermal:constantan_ingot", blockItem: "thermal:constantan_block", dustItem: "thermal:constantan_dust", plateItem: "thermal:constantan_plate", rodsItem: "", gearItem: "", crushedItem: "" },
     { name: "bronze",  hasOre: false,  rawItem: "", rawBlock: "", nuggetItem: "thermal:bronze_nugget",  ingotItem: "thermal:bronze_ingot",  blockItem: "thermal:bronze_block",  dustItem: "thermal:bronze_dust",  plateItem: "thermal:bronze_plate",  rodsItem: "",  gearItem: "thermal:bronze_gear", crushedItem: "" },
-    { name: "steel", hasOre: false, rawItem: "", rawBlock: "", nuggetItem: "mekanism:nugget_steel", ingotItem: "mekanism:ingot_steel", blockItem: "mekanism:block_steel", dustItem: "mekanism:dust_steel", plateItem: "immersiveengineering:plate_steel", rodsItem: "immersiveengineering:stick_steel", gearItem: "", crushedItem: "" },
+    { name: "steel", hasOre: false, rawItem: "", rawBlock: "", nuggetItem: "thermal:steel_nugget", ingotItem: "thermal:steel_ingot", blockItem: "thermal:steel_block", dustItem: "thermal:steel_dust", plateItem: "thermal:steel_plate", rodsItem: "immersiveengineering:stick_steel", gearItem: "thermal:steel_gear", crushedItem: "" },
     { name: "netherite",  hasOre: false,  rawItem: "", rawBlock: "", nuggetItem: "thermal:netherite_nugget",  ingotItem: "minecraft:netherite_ingot",  blockItem: "minecraft:netherite_block",  dustItem: "thermal:netherite_dust",  plateItem: "thermal:netherite_plate",  rodsItem: "",  gearItem: "thermal:netherite_gear", crushedItem: "" },
     { name: "invar",  hasOre: false,  rawItem: "", rawBlock: "", nuggetItem: "thermal:invar_nugget",  ingotItem: "thermal:invar_ingot",  blockItem: "thermal:invar_block",  dustItem: "thermal:invar_dust",  plateItem: "thermal:invar_plate",  rodsItem: "",  gearItem: "thermal:invar_gear", crushedItem: "" },
     { name: "signalum",  hasOre: false,  rawItem: "", rawBlock: "", nuggetItem: "thermal:signalum_nugget",  ingotItem: "thermal:signalum_ingot",  blockItem: "thermal:signalum_block",  dustItem: "thermal:signalum_dust",  plateItem: "thermal:signalum_plate",  rodsItem: "",  gearItem: "thermal:signalum_gear", crushedItem: "" },
@@ -310,6 +310,11 @@ onEvent("recipes", (event) => {
         smelting(metal.ingotItem, smeltInput).xp(0.7);
         blasting(metal.ingotItem, smeltInput).xp(0.7);
       }
+
+      if (metal.crushedItem != "" && metal.hasOre) {
+        event.remove({input: `#forge:raw_materials/${metal.name}`, output:metal.crushedItem})
+        event.recipes.createCrushing([metal.crushedItem, Item.of('create:experience_nugget').withChance(0.75)], `#forge:raw_materials/${metal.name}`)
+      }
     }
   })
 
@@ -363,23 +368,24 @@ onEvent("recipes", (event) => {
 });
 
 onEvent("tags.items", (event) => {
-  event.add('forge:seeds', 'createcafe:cassava_seeds')
   event.add('forge:rubber', [
     "thermal:cured_rubber"
   ])
-  event.add('forge:dusts/ender', ['ae2:ender_dust', 'thermal:ender_pearl_dust'])
-  event.add('forge:dusts/ender_pearl', ['ae2:ender_dust', 'thermal:ender_pearl_dust'])
+  event.add('forge:dusts/ender', 'thermal:ender_pearl_dust')
+  event.add('forge:dusts/ender_pearl', 'thermal:ender_pearl_dust')
   event.add('forge:eggs', 'duckling:duck_egg')
+
+  event.add('forge:dusts', ['kubejs:zinc_dust','kubejs:cobalt_dust'])
+  event.add('forge:dusts/cobalt', 'kubejs:cobalt_dust')
+  event.add('forge:dusts/zinc', 'kubejs:zinc_dust')
+
+  event.add('create:crushed_ores', 'kubejs:crushed_cobalt_ore')
   //event.add('forge:storage_blocks/bamboo', "bambooeverything:bamboo_bundle")
 });
 
 onEvent("tags.fluids", (event) => {
   event.remove('minecraft:water', [
-    'create_confectionery:caramel',
     "create:chocolate",
-    "create:honey",
-    "create_confectionery:black_chocolate",
-    "create_confectionery:ruby_chocolate",
-    "create_confectionery:white_chocolate"
+    "create:honey"
   ])
 });
