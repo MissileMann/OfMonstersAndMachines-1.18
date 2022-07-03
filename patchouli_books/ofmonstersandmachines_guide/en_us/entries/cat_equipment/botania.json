@@ -1,0 +1,19 @@
+{
+    "name": "Botania",
+    "icon": "botania:mana_ring",
+    "category": "patchouli:cat_equipment",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Botania",
+            "item": "botania:lava_pendant",
+            "text": "Botania includes a number of curios that do a variety of things. Some of these items only require a small investment, while other require a lot of time investment into botany. $(br)The two items shown on the right are my recommendations to get first."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "botania:mana_ring",
+            "recipe2": "botania:travel_belt"
+        }
+    ]
+}

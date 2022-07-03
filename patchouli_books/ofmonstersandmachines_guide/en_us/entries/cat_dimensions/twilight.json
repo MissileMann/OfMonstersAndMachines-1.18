@@ -1,0 +1,29 @@
+{
+    "name": "Twilight Forest",
+    "icon": "twilightforest:twilight_portal_miniature_structure",
+    "category": "patchouli:cat_dimensions",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "The Twilight Forest",
+            "text": "This is a magical dimension where you can find a number of magical creatures, grand dungeons, and mighty bosses. Be prepared to face the dangers that lurk around the Twilight Forest."
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["kubejs:textures/images/twilight.png","kubejs:textures/images/twilight2.png"],
+            "border": true,
+            "text": "Throw a diamond into a 2x2 of water that is surrounded by flowers, fungi, etc. to open the portal. $(br)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightforest:magic_map",
+            "text": "The Magic Map will help you locate the various bosses and dungeons located in the twilight forest. Look through the Twilight Forest's advancements to see in what order you should complete each one."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "twilightforest:magic_map",
+            "recipe2": "twilightforest:magic_map_focus"
+        }
+    ]
+}

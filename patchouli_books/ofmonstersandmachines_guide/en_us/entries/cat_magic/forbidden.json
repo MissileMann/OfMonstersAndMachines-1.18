@@ -1,0 +1,18 @@
+{
+    "name": "Forbidden & Arcanus",
+    "icon": "forbidden_arcanus:dark_soul",
+    "category": "patchouli:cat_magic",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Forbidden & Arcanus",
+            "text": "Use forbidden magic to create useful items, tools, and weapons."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "forbidden_arcanus:mundabitur_dust",
+            "text": "Look up @forbidden in jei to see all the different items you can craft."
+        }
+    ]
+}

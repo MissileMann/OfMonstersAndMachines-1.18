@@ -1,0 +1,13 @@
+{
+    "name": "The Nether",
+    "icon": "minecraft:crying_obsidian",
+    "category": "patchouli:cat_dimensions",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "The Nether",
+            "text": "The nether contains new structures and biomes. The lower level of the nether contains mostly only desert or barren biomes, the middle layer contains vanilla biomes, and the top layer contains lush biomes."
+        }
+    ]
+}

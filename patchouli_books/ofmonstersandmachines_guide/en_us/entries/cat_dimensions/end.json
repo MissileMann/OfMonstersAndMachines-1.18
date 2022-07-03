@@ -1,0 +1,99 @@
+{
+    "name": "The End",
+    "icon": "minecraft:end_stone",
+    "category": "patchouli:cat_dimensions",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "The End",
+            "text": "The way to the end is harder than normal. You need to collect 12 of the 16 different eyes to open the portal to the end. Careful though, the dragon is rumored to be very powerful."
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["kubejs:textures/images/end.png"],
+            "border": true,
+            "text": "The next pages contains all the different eyes and how to obtain them."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:black_eye",
+            "text": "Found in buried chests."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:old_eye",
+            "text": "Found in desert pyramids."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:nether_eye",
+            "text": "Found in Desert Pyramids"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:cold_eye",
+            "text": "Found in Igloos"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:rogue_eye",
+            "text": "Found in Jungle Pyramids"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:magical_eye",
+            "text": "Drops from Evokers"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:lost_eye",
+            "text": "Found in Mineshafts"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:corrupted_eye",
+            "text": "Found in Pillager Outposts"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:wither_eye",
+            "text": "Dropped by The Wither"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:guardian_eye",
+            "text": "Dropped by The Elder Guardian"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:witch_eye",
+            "text": "Crafted using a witch pupil that drops from Witches"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:cursed_eye",
+            "text": "Found in Bastion's treasure chests."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:exotic_eye",
+            "text": "Crafted with aquatic items."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:evil_eye",
+            "text": "Bought from a master cleric."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:undead_eye",
+            "text": "Crafted using an undead soul that drops from Skeleton Horses."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:cryptic_eye",
+            "text": "You have a small chance of aquiring this item when enchanting."
+        }
+    ]
+}

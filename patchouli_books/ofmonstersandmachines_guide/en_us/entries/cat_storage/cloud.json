@@ -1,0 +1,18 @@
+{
+    "name": "Cloud Storage",
+    "icon": "cloudstorage:cloud_chest",
+    "category": "patchouli:cat_storage",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Cloud Storage",
+            "text": "Store your items in a literal cloud!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cloudstorage:guide_book",
+            "text": "Craft this book to learn more about Cloud Storage. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

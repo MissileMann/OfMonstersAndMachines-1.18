@@ -1,0 +1,18 @@
+{
+    "name": "Little Logistics",
+    "icon": "littlelogistics:tug",
+    "category": "patchouli:cat_tech",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Little Logistics",
+            "text": "Transport items and liquids using either tug boats or special minecarts."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:patchouli_guide",
+            "text": "Craft this book to learn more about Little Logistics. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

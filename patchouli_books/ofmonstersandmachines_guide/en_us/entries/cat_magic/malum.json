@@ -1,0 +1,18 @@
+{
+    "name": "Malum",
+    "icon": "malum:spirit_altar",
+    "category": "patchouli:cat_magic",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Malum",
+            "text": "Use arcane magic to create unique items and useful rituals."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "malum:encyclopedia_arcana",
+            "text": "Craft this bood to learn more about the secrets of arcane magic. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

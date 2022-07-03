@@ -1,0 +1,24 @@
+{
+    "name": "Angel Ring",
+    "icon": "angelring:itemring",
+    "category": "patchouli:cat_sevenring",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Angel Ring",
+            "item": "angelring:itemring",
+            "text": "This ring will give you unlimited creative flight. While there are a number of steps required to get this item, the scrolls by themselves serve as a good intermediate to the angel ring."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:kjs_9yfgvfsh3l851nxsqkni7th4u",
+            "recipe2": "enigmaticlegacy:fabulous_scroll"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enigmaticlegacy:heaven_scroll"
+            
+        }
+    ]
+}

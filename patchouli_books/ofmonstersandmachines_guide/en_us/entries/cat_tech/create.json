@@ -1,0 +1,18 @@
+{
+    "name": "Create",
+    "icon": "create:mechanical_arm",
+    "category": "patchouli:cat_tech",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Create",
+            "text": "Create intricate contraptions to mass produce or automate different items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/water_wheel",
+            "text": "Look up @create in JEI and use 'W' on items to ponder on what they do."
+        }
+    ]
+}

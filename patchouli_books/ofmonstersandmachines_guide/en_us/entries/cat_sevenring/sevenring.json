@@ -1,0 +1,20 @@
+{
+    "name": "Ring of the Seven Curses",
+    "icon": "enigmaticlegacy:cursed_ring",
+    "category": "patchouli:cat_sevenring",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Ring of Seven Curses",
+            "item": "enigmaticlegacy:cursed_ring",
+            "text": "$(5)Once forged by antediluvian god, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might... Be it arrogance or ignorance that leads them to believe they can harness ring's power, both are paid for in suffering the extent of which defies description."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": " ",
+            "recipe": "kubejs:kjs_emti2mjp0r2iaq2e29zrvyndt",
+            "text": "$(c)Once worn, it becomes a part of you. Only the power of a god can unequip it.$()$(br2)The ring gives you seven blessings, but you must suffer seven curses. Although, wearing this ring will unlock the ability to aquire new items and equipment.$(br)"
+        }
+    ]
+}

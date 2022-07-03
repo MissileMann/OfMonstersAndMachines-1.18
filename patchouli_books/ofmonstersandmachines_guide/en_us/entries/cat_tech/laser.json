@@ -1,0 +1,18 @@
+{
+    "name": "LaserIO",
+    "icon": "laserio:laser_node",
+    "category": "patchouli:cat_tech",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "LaserIO",
+            "text": "Transfer Items, Liquids, Redstone Signals, and Energy through lasers."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "laserio:my_book_recipe_shapeless",
+            "text": "Craft this book to learn more about LaserIO. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

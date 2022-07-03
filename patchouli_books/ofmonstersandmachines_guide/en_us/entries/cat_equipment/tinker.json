@@ -1,0 +1,19 @@
+{
+    "name": "Tinker's Construct",
+    "icon": "tconstruct:creative_slot",
+    "category": "patchouli:cat_equipment",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "tconstruct:plate_chestplate",
+            "title": "Tinker's Construct",
+            "text": "Tinker's allows you to create custom tools, weapons, and armor. There are a number of different materials and tool types to create."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "tconstruct:common/materials_and_you",
+            "text": "Craft this book to start yourself out in Tinker's and see all the materials you can use for your equipment. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

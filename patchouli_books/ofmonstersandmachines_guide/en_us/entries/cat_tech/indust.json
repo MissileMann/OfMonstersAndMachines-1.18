@@ -1,0 +1,18 @@
+{
+    "name": "Industrial Foregoing",
+    "icon": "industrialforegoing:black_hole_controller",
+    "category": "patchouli:cat_tech",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Industrial Foregoing",
+            "text": "Includes a variety of different machines with different purposes to help automate a variety of things."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "industrialforegoing:manual",
+            "text": "Craft this book to learn more about Industrial Foregoing. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

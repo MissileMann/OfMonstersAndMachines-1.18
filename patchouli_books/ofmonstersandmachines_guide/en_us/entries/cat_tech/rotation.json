@@ -1,0 +1,39 @@
+{
+    "name": "Powering Create",
+    "icon": "create:water_wheel",
+    "category": "patchouli:cat_tech",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/water_wheel",
+            "text": "Uses water to turn itself and generates a small amount of rotational energy. Hold 'W' over the item above to see more about it."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/white_sail",
+            "text": "Place these with a windmill bearing to genereate rotational energy. Hold 'W' over the item above to see more about it."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/encased_fan",
+            "text": "While not giving a lot of rotational energy, you can put a fan facing down over a fire. Giving the fan a redstone signal will cause it to generate a small amount of rotational energy. Hold 'W' over the item above to see more about it."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "compressedcreativity:crafting/rotational_compressor",
+            "text": "While it does not generate rotational energy, it uses rotational energy to generate pressure that can be used for Pneumatic Craft Machines. Hold 'W' over the item above to see more about it." 
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "steampowered:bronze_steam_engine",
+            "text": "Heats up water in a boiler above it to create steam, then you can pump the steam out using a steam engine to generate rotational energy. Hold 'W' over the item above to see more about it. $(br2)There are also cast iron and steel versions of these items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "steampowered:bronze_boiler",
+            "recipe2": "steampowered:bronze_burner"
+        }
+        
+    ]
+}

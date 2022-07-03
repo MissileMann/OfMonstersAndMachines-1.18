@@ -1,0 +1,38 @@
+{
+    "name": "Sophisticated Backpacks",
+    "icon": "sophisticatedbackpacks:backpack",
+    "category": "patchouli:cat_storage",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Sophisticated Storage",
+            "text": "Create upgradable backpacks that can have a variety of upgrades like crafting upgrade, stack size, etc."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:backpack",
+            "text": "Look up @sophisticatedbackpack for the different backpack upgrades. The next pages include some recommended upgrades."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:feeding_upgrade",
+            "recipe2": "sophisticatedbackpacks:stack_upgrade_tier_1"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:stack_upgrade_tier_2",
+            "recipe2": "sophisticatedbackpacks:stack_upgrade_tier_3"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:tool_swapper_upgrade",
+            "text": "Switches your tool to the best one for whatever you are mining."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:crafting_upgrade",
+            "recipe2": "sophisticatedbackpacks:stonecutter_upgrade"
+        }
+    ]
+}

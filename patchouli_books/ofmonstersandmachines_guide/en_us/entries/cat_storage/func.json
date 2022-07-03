@@ -1,0 +1,38 @@
+{
+    "name": "Functional Storage",
+    "icon": "functionalstorage:oak_1",
+    "category": "patchouli:cat_storage",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Functional Storage",
+            "text": "Drawers to bulk storage items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "functionalstorage:oak_1",
+            "text": "Look up @functional for the different drawers you can make and the different upgrades."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "functionalstorage:ender_drawer",
+            "recipe2": "functionalstorage:compacting_drawer"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "functionalstorage:storage_controller",
+            "recipe2": "functionalstorage:armory_cabinet"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "functionalstorage:linking_tool",
+            "recipe2": "functionalstorage:copper_upgrade"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "functionalstorage:gold_upgrade",
+            "recipe2": "functionalstorage:diamond_upgrade"
+        }
+    ]
+}

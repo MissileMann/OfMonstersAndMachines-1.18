@@ -1,0 +1,20 @@
+{
+    "name": "Explorer's Compass",
+    "icon": "explorerscompass:explorerscompass",
+    "category": "patchouli:cat_sevenring",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Explorer's Compass",
+            "item": "explorerscompass:explorerscompass",
+            "text": "A tool useful to finding different structures found around the various dimensions."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": " ",
+            "recipe": "kubejs:kjs_eexgjlcxsqjbbhd7u5p9vuhve",
+            "recipe2": "enigmaticlegacy:soul_compass"
+        }
+    ]
+}

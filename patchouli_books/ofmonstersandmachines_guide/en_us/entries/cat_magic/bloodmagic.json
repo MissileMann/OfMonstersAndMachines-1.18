@@ -1,0 +1,18 @@
+{
+    "name": "Blood Magic",
+    "icon": "bloodmagic:masterbloodorb",
+    "category": "patchouli:cat_magic",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Blood Magic",
+            "text": "Use blood to power items and rituals"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "bloodmagic:guide",
+            "text": "Craft this bood to learn more about the secrets of blood magic. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

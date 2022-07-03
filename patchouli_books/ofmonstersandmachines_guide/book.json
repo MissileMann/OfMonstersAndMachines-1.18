@@ -1,0 +1,8 @@
+{
+    "name": "Oghma Infinium",
+    "landing_text": "This is a general guide to the modpack.",
+    "version": 1,
+    "book_texture": "patchouli:textures/gui/book_purple.png",
+    "model": "patchouli:book_green",
+    "show_progress": false
+}

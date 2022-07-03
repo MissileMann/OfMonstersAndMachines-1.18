@@ -1,0 +1,20 @@
+{
+    "name": "The Bumblezone",
+    "icon": "the_bumblezone:pollen_puff",
+    "category": "patchouli:cat_dimensions",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "The Bumblezone",
+            "text": "Transport yourself into the bumblezone by using an enderpearl into a beehive."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "the_bumblezone:beehemoth",
+            "scale": 0.65,
+            "offset": 0.25,
+            "text": "Beware, if you try to take honey, you have the chance to be attacked by the mighty Beehemoth!"
+        }
+    ]
+}

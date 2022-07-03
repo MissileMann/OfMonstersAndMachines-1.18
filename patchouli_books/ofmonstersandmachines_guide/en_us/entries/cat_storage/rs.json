@@ -1,0 +1,28 @@
+{
+    "name": "Refined Storage",
+    "icon": "refinedstorage:grid",
+    "category": "patchouli:cat_storage",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Refined Storage",
+            "text": "Store your items in storage disks and create auto crafters."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "refinedstorage:controller",
+            "recipe2": "refinedstorage:grid"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "refinedstorage:disk_drive",
+            "recipe2": "refinedstorage:crafter"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "refinedstorage:wireless_transmitter",
+            "recipe2": "refinedstorage:wireless_grid"
+        }
+    ]
+}

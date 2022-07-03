@@ -1,0 +1,104 @@
+{
+    "name": "Other Items",
+    "icon": "enigmaticlegacy:twisted_core",
+    "category": "patchouli:cat_sevenring",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:dark_mirror",
+            "text": "Will send you back to your bed, respawn anchor, or spawn on use."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Thousand Curses",
+            "item": "enigmaticlegacy:cursed_scroll",
+            "text": "Gives you stronger and stronger bonuses the more curses your armors have."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Bloodstained Valor",
+            "item": "enigmaticlegacy:berserk_emblem",
+            "text": "Gives you more damage, speed, and resistance the more health you are missing."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:guardian_heart",
+            "text": "Can turn guardians neutral towards the user and can be used to enrage monsters."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:the_twist",
+            "text": "$(o)$(5)On the path to take it all away... $()$(br2)This book alters the fourth curse when used."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:cursed_stone",
+            "text": "If you die in the nether in a big enough pool of lava, it will cause the Ring of the Seven Curses to be destroyed. $(o)$(c)But why would you want that????"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:enchanter_pearl",
+            "text": "Significantly improves your enchanting ability, although you can get curses and treasure enchantments while enchanting..."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:avarice_scroll",
+            "text": "Renders Piglins neutral towards you, disregarding the second curse. Piglin and Villager are now more beneficial."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:infernal_shield",
+            "text": "Extinguishes you while on fire. Can block piercing objects and cannot be disabled."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:astral_fruit",
+            "text": "Gives you an extra permanent ring slot when eaten. You can only gain one ring slot total from this fruit even if you eat more."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:ender_slayer",
+            "text": "Deals extreme damage to endermen and disables the teleportation of endermen and shulkers. Also disables a number of teleportation items when attacking players."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Tome of Malignancy",
+            "item": "enigmaticlegacy:curse_transposer",
+            "text": "Can transfer curses onto this book from other items."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Wayfinder", 
+            "item": "enigmaticlegacy:soul_compass",
+            "text": "Points to the nearest soul crystal."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sacrifices",
+            "text": "The Items past this point require an even greater sacrifice. You must wear the Ring of the Seven Curses for 99.5% of your existence."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Burden of Desolation",
+            "item": "enigmaticlegacy:desolation_ring",
+            "text": "Disables the spawning of Iron Golems, Piglins, Zombie Piglins and Endermen around you."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Testament of Contempt",
+            "item": "enigmaticlegacy:eldritch_amulet",
+            "text": "After death, your inventory will remain with you. You will still lose experience and a soul crystal like normal."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:abyssal_heart",
+            "text": "$(o)$(5) It's alive..."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:the_infinitum",
+            "text": "$(o)Infinite Power"
+        }
+    ]
+}

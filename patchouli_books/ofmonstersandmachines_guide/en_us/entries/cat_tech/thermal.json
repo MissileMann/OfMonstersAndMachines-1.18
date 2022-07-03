@@ -1,0 +1,18 @@
+{
+    "name": "Thermal Expansion",
+    "icon": "thermal:dynamo_disenchantment",
+    "category": "patchouli:cat_tech",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Thermal",
+            "text": "Adds new machines and generators to do a bunch of different automation and resource aquisition."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "thermal:tools/guidebook",
+            "text": "Craft this book to learn more about Thermal Expansion. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

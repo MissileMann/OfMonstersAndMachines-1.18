@@ -1,0 +1,20 @@
+{
+    "name": "The Undergarden",
+    "icon": "undergarden:catalyst",
+    "category": "patchouli:cat_dimensions",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "The Undergarden",
+            "recipe": "undergarden:catalyst",
+            "text": "The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm.$(br)"
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["kubejs:textures/images/undergarden.png"],
+            "border": true,
+            "text": "Use the Catalyst on a frame of Stone Brick, Mossy Stone Brick, etc. to open a portal to The Undergarden.$(br)"
+        }
+    ]
+}

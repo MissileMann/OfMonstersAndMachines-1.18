@@ -1,0 +1,28 @@
+{
+    "name": "Early Game Power",
+    "icon": "mekanismgenerators:solar_generator",
+    "category": "patchouli:cat_tech",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "thermal:dynamo_stirling",
+            "text": "Generates power by burning up burnable materials. Generates a small amount of power but can be upgraded with augments."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mekanismgenerators:generator/heat",
+            "text": "Uses lava's heat to generate power. Place lava source blocks around the sides of the generator and it will passively generate a small amount of energy."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "immersiveengineering:crafting/windmill",
+            "text": "Uses wind to generate a small amount of power. The higher the windmill, the more energy is produced."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "thermal:dynamo_magmatic",
+            "text": "While a little bit of an investment when starting out, this dynamo can produce a good amount of energy by using lava as it's fuel. It is recommended to have a pump to get a lot of lava."
+        }
+    ]
+}

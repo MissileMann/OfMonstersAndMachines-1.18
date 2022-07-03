@@ -1,0 +1,30 @@
+{
+    "name": "Enigmatic Legacy",
+    "icon": "enigmaticlegacy:golem_heart",
+    "category": "patchouli:cat_equipment",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:earth_heart",
+            "title": "Enigmatic Legacy",
+            "text": "Enigmatic Legacy includes a lot of unique curios and items. Some can be crafted and others can only be found out in the world.$(br2)These are only a few of the items included in the mod."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enigmaticlegacy:insignia",
+            "recipe2": "enigmaticlegacy:ender_ring"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enigmaticlegacy:mining_charm",
+            "recipe2": "enigmaticlegacy:monster_charm"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "The Cursed Relics",
+            "text": "There are unique relics that you can only use once you've equiped the Ring of the Seven Curses.",
+            "entries": ["patchouli:cat_sevenring/sevenring","patchouli:cat_sevenring/others"]
+        }
+    ]
+}

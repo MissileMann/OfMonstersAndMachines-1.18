@@ -1,0 +1,18 @@
+{
+    "name": "Alfheim",
+    "icon": "mythicbotany:elementium_ore",
+    "category": "patchouli:cat_dimensions",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Alfheim",
+            "text": "Alfheim is a magical place filled with Elementium, Dreamwood, and other Elven items. Only a master botanist has the power to transport themselves through the Elven Gateway."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mythicbotany:kvasir_mead",
+            "text": "Legend has it that the Mead of Kvasir has the power to let you travel to the realm of Alfheim."
+        }
+    ]
+}

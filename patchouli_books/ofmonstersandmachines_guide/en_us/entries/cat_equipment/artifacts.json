@@ -1,0 +1,19 @@
+{
+    "name": "Artifacts",
+    "icon": "artifacts:cloud_in_a_bottle",
+    "category": "patchouli:cat_equipment",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Artifacts",
+            "item": "artifacts:helium_flamingo",
+            "text": "Find unique artifacts around the world that will give you bonuses when equipped into a curios slot."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "artifacts:mimic",
+            "text": "Mimics can drop any of the artifacts, you can find them rarely underground."
+        }
+    ]
+}

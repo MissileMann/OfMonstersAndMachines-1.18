@@ -1,0 +1,18 @@
+{
+    "name": "Immersive Engineering",
+    "icon": "immersiveengineering:charging_station",
+    "category": "patchouli:cat_tech",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Immersive Engineering",
+            "text": "Create different multiblocks and use wires to transfer power to other machines."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "immersiveengineering:crafting/manual",
+            "text": "Craft this book to learn more about Immersive Engineering. This book is included in the eccentric tome you get on first spawn."
+        }
+    ]
+}

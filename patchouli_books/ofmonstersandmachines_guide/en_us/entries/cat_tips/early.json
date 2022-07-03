@@ -1,0 +1,52 @@
+{
+    "name": "Gameplay Tips",
+    "icon": "simplehats:hatbag_uncommon",
+    "category": "patchouli:cat_tips",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Benefits of Variety",
+            "item": "solcarrot:food_book",
+            "text": "You can get bonus hearts from eating different foods. You can get a max of 15 additional hearts just from eating. There are other ways to increase your health though."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:tool_swapper_upgrade",
+            "text": "The tool swapper upgrade is a nice upgrade for your backpacks to save you from having to have multiple tools in your inventory."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/curiosities/brown_toolbox",
+            "text": "The toolbox is useful for storing different blocks, tools, or other items and pressing Left Alt while near one that is placed to swap to the different items stored in it. Will keep the items in it when picked up."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/hose_pulley",
+            "text": "The hose pulley can be used in the nether and if the lava lake is big enough, it'll infinitely drain lava from that lake. Hold 'W' over the pulley above to see how to use it."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Pocket Storage Units",
+            "recipe": "pocketstorage:tier1",
+            "text": "Pocket Storage Units are a good way to store items that you get while exploring or mining. Simply put an item into it, and anytime you pick up the item again it'll send it directly into the pocket storage."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Mining Lasers",
+            "item": "mininggadgets:modificationtable",
+            "text": "Mining Gadgets adds a good tool to do mass mining underground."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enigmaticlegacy:enchantment_transposer",
+            "title": "Removing Enchants",
+            "text": "The Tome of Hungering Knowledge is good for removing enchantments off of an item into a book. $(br)It also does not destroy the item that has the enchantments on it."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:library",
+            "text": "The Enchantment Library can store all of your enchantments and you can take out specific enchants at specific levels onto a book."
+        }
+    ]
+}

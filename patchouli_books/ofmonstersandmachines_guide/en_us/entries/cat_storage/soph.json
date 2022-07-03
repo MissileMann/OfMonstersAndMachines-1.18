@@ -1,0 +1,33 @@
+{
+    "name": "Sophisticated Storage",
+    "icon": "sophisticatedstorage:chest",
+    "category": "patchouli:cat_storage",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Sophisticated Storage",
+            "text": "Create upgradable chests that can have a variety of upgrades like crafting upgrade, stack size, etc."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedstorage:oak_chest_from_vanilla_chest",
+            "text": "Look up @sophisticated for not only chests, but also the different backpack upgrades you can make. Next pages includes some recommended upgrades."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedstorage:crafting_upgrade",
+            "recipe2": "sophisticatedstorage:stack_upgrade_tier_1"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedstorage:stack_upgrade_tier_2",
+            "recipe2": "sophisticatedstorage:stack_upgrade_tier_3"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedstorage:advanced_compacting_upgrade",
+            "recipe2": "sophisticatedstorage:smelting_upgrade"
+        }
+    ]
+}

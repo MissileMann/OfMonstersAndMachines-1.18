@@ -1,0 +1,28 @@
+{
+    "name": "Flux Networks",
+    "icon": "fluxnetworks:flux_controller",
+    "category": "patchouli:cat_tech",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Flux Networks",
+            "text": "Allows you to transfer power over long distances or even across dimensions.$(br2)Craft the flux controller first to be able to create a network for your power input and outputs. Then you can create Flux Plugs and Flux Points to store and take energy from your network."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "fluxnetworks:fluxcontroller",
+            "text": "Look up @fluxnetworks in JEI to see the different items you can craft."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "fluxnetworks:fluxplug",
+            "text": "The Flux Plug takes energy from external sources and sends that power into whatever network you select in it's GUI."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "fluxnetworks:fluxpoint",
+            "text": "The Flux Point puts energy into what it's connected to and takes out energy from whatever network you select in it's GUI."
+        }
+    ]
+}

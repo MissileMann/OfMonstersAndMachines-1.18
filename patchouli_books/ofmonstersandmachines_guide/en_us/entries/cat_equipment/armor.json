@@ -1,0 +1,42 @@
+{
+    "name": "Armors",
+    "icon": "cataclysm:ignitium_chestplate",
+    "category": "patchouli:cat_equipment",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text": "This section contains some armors that you can work towards in your adventures."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "botania:terrasteel_chestplate",
+            "title": "Botania Armors",
+            "text": "Botania includes multipe tiers of armor. Terrasteel is the second best botania armor, and Alfsteel is the best. When equipped with the full set it will give you a bonus."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tconstruct:plate_chestplate",
+            "title": "Tinker's Armory",
+            "text": "Tinker's includes three sets: plate armor, traveller's armor, and slime armor. The different sets vary in the number of upgrade, defence, and utility slots. All armors can be upgraded."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "advancednetherite:netherite_diamond_chestplate",
+            "title": "Netherite+",
+            "text": "Advanced Netherite includes new tiers of netherite armor that each give you an additial bonus the more upgraded the armor is."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mekanism:mekasuit_bodyarmor",
+            "title": "Mekasuit",
+            "text": "The most high tech of armor for the mekanists out there. Can be fitted with different upgrades."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ars_nouveau:archmage_robes",
+            "title": "Mage Robes",
+            "text": "Ars Nouveau includes three tiers of mage robes. Each tier decreases mana cost of spells by incremental amounts."
+        }
+    ]
+}
