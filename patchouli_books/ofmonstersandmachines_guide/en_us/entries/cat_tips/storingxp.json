@@ -1,0 +1,23 @@
+{
+    "name": "Storing XP",
+    "icon": "minecraft:experience_bottle",
+    "category": "patchouli:cat_tips",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "thermal:tools/xp_crystal",
+            "text": "Right click to store xp and sneak right click to retrieve xp. Pressing 'V' (By default) will turn on auto collection"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enigmaticlegacy:xp_scroll",
+            "text": "Collects xp in a 16 block radius when activated. Shift Right-Click while holding it to activate/deactivate it. Right click it to change mods. Absorbtion mode will consume your experience and extraction mod will feed you it's xp."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:xp_pump_upgrade",
+            "text": "Is configurable in the GUI, can store collected xp into a tank if you have the upgrade equipped on your backpack. Has different options like stocking your xp up to a specific level."
+        }
+    ]
+}

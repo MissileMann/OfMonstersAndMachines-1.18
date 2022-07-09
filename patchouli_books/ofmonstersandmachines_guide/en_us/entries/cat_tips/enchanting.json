@@ -1,0 +1,39 @@
+{
+    "name": "Enchanting Tips",
+    "icon": "forbidden_arcanus:xpetrified_orb",
+    "category": "patchouli:cat_tips",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:enchanting_table",
+            "text": "Apotheosis revamps how enchanting is done. You can now get higher than level 30 enchantments, and a lot of enchantments can go higher than they normally can."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Modifiers",
+            "text": "$(a)Eterna$(): Eterna is the value used when determining what level of enchantment you are going to get. For example: An Eterna value of 15 will get you level 30 enchanting. $(br2)$(4)Quanta$(): Quanta determince the variance in your enchantment power. A 43% quanta with a level 30 enchantment will cause your enchant value to vary between level 17 and 43. $(br2)$(5)Arcana$(): A higher level of Arcana will cause rare enchantments to become more common and will increase the number of enchantments you will get.$(br2)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enigmaticlegacy:enchantment_transposer",
+            "title": "Removing Enchants",
+            "text": "The Tome of Hungering Knowledge is good for removing enchantments off of an item into a book. $(br)It also does not destroy the item that has the enchantments on it."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:anvil",
+            "text": "Placing an enchanted anvil with splitting over a book with multiple enchantments and letting it crush the book will cause the enchantments from that book to split off into their own books."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:library",
+            "text": "The Enchantment Library can store all of your enchantments and you can take out specific enchants at specific levels onto a book."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:book",
+            "text": "It is recommended that once you get both the Enchantment Library and a very high level of enchanting to enchant with books and then put those enchants into the library."
+        }
+    ]
+}

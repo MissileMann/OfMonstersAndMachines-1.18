@@ -36,17 +36,6 @@
             "title": "Mining Lasers",
             "item": "mininggadgets:modificationtable",
             "text": "Mining Gadgets adds a good tool to do mass mining underground."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "enigmaticlegacy:enchantment_transposer",
-            "title": "Removing Enchants",
-            "text": "The Tome of Hungering Knowledge is good for removing enchantments off of an item into a book. $(br)It also does not destroy the item that has the enchantments on it."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "apotheosis:library",
-            "text": "The Enchantment Library can store all of your enchantments and you can take out specific enchants at specific levels onto a book."
         }
     ]
 }

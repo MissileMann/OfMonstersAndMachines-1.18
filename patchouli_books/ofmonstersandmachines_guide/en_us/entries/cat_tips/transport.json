@@ -1,0 +1,30 @@
+{
+    "name": "Transportation",
+    "icon": "minecraft:ender_pearl",
+    "category": "patchouli:cat_tips",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Planes and Helicopters",
+            "recipe": "simpleplanes:plane_book",
+            "text": "Simple Planes adds 2 different planes and a helicopter. Can be a useful tool early game to explore new areas."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Waystones",
+            "item": "waystones:waystone",
+            "text": "Can be used to teleport to other waystones. If the waystone is too far away, it will cost up to 3 levels."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "recall:item_recall",
+            "text": "The recall amulet will teleport you back to your respawn point after holding it for a while only if you are in the same dimension as your spawn point."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ars_nouveau:warp_scroll",
+            "text": "The warp scroll can select a destination with sneak right clicking. You can use it to teleport back to that spot but it will use up the scroll. If you throw the scroll in a portal frame made of Arcane Stone Bricks while there is a mana jar filled with mana nearby it will create a portal to that spot."
+        }
+    ]
+}
