@@ -7,7 +7,7 @@
         {
             "type": "patchouli:text",
             "title": "The Nether",
-            "text": "The nether contains new structures and biomes. The lower level of the nether contains mostly only desert or barren biomes, the middle layer contains vanilla biomes, and the top layer contains lush biomes."
+            "text": "The nether contains new structures and biomes. The lower (0 - 60) and upper (120+) levels of the nether contains all biomes, modded and vanilla. The middle layer (60 - 120) only contains vanilla minecraft biomes, mostly so that you don't have to go looking for ages to find them."
         }
     ]
 }
