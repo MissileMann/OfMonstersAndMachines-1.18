@@ -183,6 +183,10 @@ onEvent("recipes", (event) => {
     event.remove({output: "cabletiers:creative_destructor"})
     event.remove({output: "cabletiers:creative_disk_manipulator"})
     event.remove({output: "cabletiers:creative_requester"})
+
+    //I'm sick of accidentally shift clicking coal into the top slot
+    event.remove({output: "biggerreactors:graphite_ingot", type: "minecraft:smelting"})
+    event.shapeless("2x biggerreactors:graphite_ingot", ["minecraft:iron_ingot", "minecraft:coal"])
 });
 
 onEvent('tags.items', event => {
