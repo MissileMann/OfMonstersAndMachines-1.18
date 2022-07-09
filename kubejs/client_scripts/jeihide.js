@@ -90,7 +90,10 @@ onEvent("jei.hide.items", (event) => {
         'mekanism:dust_bronze',
         'mekanism:ingot_bronze',
         'mekanism:nugget_bronze',
-        'mekanism:block_bronze'
+        'mekanism:block_bronze',
+        'industrialforegoing:iron_gear',
+        'industrialforegoing:gold_gear',
+        'industrialforegoing:diamond_gear'
     ]
 
     list.forEach((item) => {
