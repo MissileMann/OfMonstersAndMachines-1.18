@@ -93,7 +93,15 @@ onEvent("jei.hide.items", (event) => {
         'mekanism:block_bronze',
         'industrialforegoing:iron_gear',
         'industrialforegoing:gold_gear',
-        'industrialforegoing:diamond_gear'
+        'industrialforegoing:diamond_gear',
+        'immersiveengineering:plate_steel',
+        'immersiveengineering:plate_iron',
+        'immersiveengineering:plate_gold',
+        'create:iron_sheet',
+        'create:gold_sheet',
+        'industrialforegoing:dryrubber',
+        'industrialforegoing:plastic'
+
     ]
 
     list.forEach((item) => {
