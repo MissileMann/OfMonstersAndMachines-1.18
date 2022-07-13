@@ -6,4 +6,8 @@ onEvent('item.registry', event => {
     event.create('collectable_missilecard').displayName('Collectable - Missile`s card').rarity('epic').tooltip('One of the three rare cards you can only find very rarely in End Cities.')
     event.create('collectable_shinycard').displayName('Collectable - Shiny`s card').rarity('epic').tooltip('One of the three rare cards you can only find very rarely in End Cities.')
     event.create('collectable_pokelockercard').displayName('Collectable - Pokelocker`s card').rarity('epic').tooltip('One of the three rare cards you can only find very rarely in End Cities.')
+    event.create('thermal_mechanism').displayName('Thermal Mechanism')
+    event.create('ender_casing').displayName('Empty Ender Mechanism')
+    event.create('ender_mechanism').displayName('Ender Mechanism')
+    event.create('goblin_tech').rarity('epic').displayName('Ancient Goblin Technology').tooltip('Old forgotten technology that was produced by the ancient Goblin Empire that no longer stands. Said to fit almost any machine. An old trader is rumored to have one or two...')
 })
