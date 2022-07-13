@@ -187,9 +187,46 @@ onEvent("recipes", (event) => {
     //I'm sick of accidentally shift clicking coal into the top slot
     event.remove({output: "biggerreactors:graphite_ingot", type: "minecraft:smelting"})
     event.shapeless("2x biggerreactors:graphite_ingot", ["minecraft:iron_ingot", "minecraft:coal"])
+
+    event.recipes.createMixing('4x thermal:bronze_ingot',[
+        '3x #forge:ingots/copper',
+        '#forge:ingots/tin'
+    ]).heated()
+    event.recipes.createMixing('2x thermal:electrum_ingot',[
+        '#forge:ingots/gold',
+        '#forge:ingots/silver'
+    ]).heated()
+    event.recipes.createMixing('3x thermal:invar_ingot',[
+        '2x #forge:ingots/iron',
+        '#forge:ingots/nickel'
+    ]).heated()
+    event.recipes.createMixing('2x thermal:constantan_ingot',[
+        '#forge:ingots/copper',
+        '#forge:ingots/nickel'
+    ]).heated()
+    event.recipes.createMixing('4x thermal:signalum_ingot',[
+        '3x #forge:ingots/copper',
+        '#forge:ingots/silver',
+        '4x minecraft:redstone'
+    ]).superheated()
+    event.recipes.createMixing('4x thermal:lumium_ingot',[
+        '3x #forge:ingots/tin',
+        '#forge:ingots/silver',
+        '2x minecraft:glowstone_dust'
+    ]).superheated()
+    event.recipes.createMixing('4x thermal:enderium_ingot',[
+        '3x #forge:ingots/lead',
+        '#forge:dusts/diamond',
+        '2x #forge:dusts/ender_pearl'
+    ]).superheated()
+    event.recipes.createMixing('3x biggerreactors:graphite_ingot',[
+        'minecraft:coal',
+        '#forge:ingots/iron'
+    ]).heated()
 });
 
 onEvent('tags.items', event => {
     event.remove('curios:ring', 'angelring:itemring')
     event.remove('curios:charm', 'angelring:itemring')
+    event.add('create:crushed_ores', 'malum:crushed_soulstone')
 });
